@@ -1,5 +1,5 @@
 <main
-    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-16 sm:pt-8 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-16 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <div class="inline-block">
         <a href="/projects" class="inline-block text-lg sm:text-xl mb-4">
