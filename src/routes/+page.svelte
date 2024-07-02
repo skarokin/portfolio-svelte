@@ -2,8 +2,9 @@
     import sean from "$lib/assets/sean.jpg";
 </script>
 
+<!-- vertical centering only for the home page -->
 <main
-    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-16 sm:pt-0 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-0 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <img
         src={sean}
@@ -19,8 +20,8 @@
     </h3>
 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        Hi! I'm 20 years old and pursuing a bachelor's in CS at Rutgers. I have
-        experience in ML engineering and full stack development.
+        Hi! I'm 20 years old and pursuing a bachelor's in computer science. I have
+        experience in ML engineering and full stack web development.
     </p>
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">

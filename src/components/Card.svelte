@@ -43,9 +43,22 @@
         transform-origin: center;
     }
 
-    h1 a:hover::after,
-    h3 a:hover::after {
+    h1 a:hover::after {
         transform: translate(2px, -2px) scale(1.2);
+        color: var(--peach);
+    }
+
+    h3 a::after {
+        font-family: monospace;
+        content: ">";
+        margin-left: 0.25em;
+        transition: all 0.2s ease;
+        display: inline-block;
+        transform-origin: center;
+    }
+
+    h3 a:hover::after {
+        transform: translateX(5px) scale(1.1);
         color: var(--peach);
     }
 </style>

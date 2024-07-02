@@ -1,11 +1,11 @@
 <main
-    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-16 sm:pt-0 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <div class="mb-16">
         <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">contacts</h1>
         <hr class="border-[var(--text-main)] w-1/2 my-4" />
-        <ul class="list-none">
-            <li class="text-md sm:text-xl mb-2 sm:mb-4">
+        <ul class="list-none mb-4 sm:mb-8">
+            <li class="text-base sm:text-xl mb-2 sm:mb-4">
                 LinkedIn >
                 <a
                     href="https://www.linkedin.com/in/sean-kim-959174238/"
@@ -26,7 +26,7 @@
                     skarokin
                 </a>
             </li>
-            <li class="text-md sm:text-xl mb-2 sm:mb-4">
+            <li class="text-md sm:text-xl">
                 Discord >
                 <a
                     href="https://www.discord.com/users/257628157237133313"
@@ -36,6 +36,9 @@
                 </a>
             </li>
         </ul>
+        <p class="text-base sm:text-lg">
+            Feel free to reach out to me on any of these platforms! I'm open to collaborations, job opportunities, or just a chat.
+        </p>
     </div>
 </main>
 

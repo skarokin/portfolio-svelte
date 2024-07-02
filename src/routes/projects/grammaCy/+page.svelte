@@ -1,11 +1,20 @@
 <main
-    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-16 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
-    <div class="inline-block">
-        <a href="/projects" class="inline-block text-lg sm:text-xl mb-4">
-            back
-        </a>
-    </div>
+    <nav class="text-lg sm:text-xl mb-4 sm:mb-8">
+        <ul class="list-none flex">
+            <li>
+                <a
+                    href="/projects"
+                    class="inline-block text-lg sm:text-xl mb-0"
+                >
+                    projects
+                </a>
+            </li>
+            <li class="mx-2">/</li>
+            <li class="text-gray-500" aria-current="page">grammaCy</li>
+        </ul>
+    </nav>
 
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">grammaCy</h1>
     <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
@@ -18,7 +27,7 @@
     <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
         Python, spaCy, Flask, Docker, AWS EC2, Svelte, Firebase
     </h5>
-    <p>
+    <p class="mb-2">
         This project aims to improve the accuracy of rule-based grammar checking
         with dependency parsing. NMT-based systems are highly accurate, but are
         slow, resource-intensive, require significant development time, and
@@ -27,22 +36,24 @@
         We leverage all the benefits of rule-based systems, while improving
         accuracy to a level that is competitive with NMT-based grammar checkers.
     </p>
-    <p>
-        Developers: Me (library, model, rules, API, frontend),
+    <p class="mb-2">
+        Developed by me (library, model, rules, API, frontend),
         <a href="https://github.com/akuwuh">Isaac Nguyen</a> (library, API,
-        frontend),
-        <a href="https://github.com/PranshuS27">Pranshu Sarin</a> (rules, API)
+        frontend), and
+        <a href="https://github.com/PranshuS27">Pranshu Sarin</a> (rules, API).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
-            A multi-language grammar checking library to produce CPU-optimized spaCy pipelines for dependency parser-based grammar checking.
+            A multi-language grammar checking library to produce CPU-optimized
+            spaCy pipelines for dependency parser-based grammar checking.
         </li>
         <li>
             Builds fast, lightweight, CPU-optimized spaCy pipelines for
             dependency parser-based grammar checkers.
         </li>
         <li>
-            Preprocessing tools to work with either constituency or dependency parse data.
+            Preprocessing tools to work with either constituency or dependency
+            parse data.
         </li>
         <li>
             Multithreaded + multiprocessed CoNLL-U augmentor to inject grammar
@@ -77,28 +88,29 @@
 </main>
 
 <style>
-    div a,
+    li a,
     h3 a,
     p a {
         transition: all 0.2s ease;
         display: inline-block;
     }
 
-    div a:hover,
+    li a:hover,
     h3 a:hover,
     p a:hover {
         text-decoration: underline;
     }
 
-    div a::before {
+    li a::before {
         content: "<";
-        margin-right: 0.25rem;
+        translate: -1.25rem;
         transition: all 0.2s ease;
+        position: absolute;
         display: inline-block;
         transform-origin: center;
     }
 
-    div a:hover::before {
+    li a:hover::before {
         transform: translateX(-10px) scale(1.2);
         color: var(--peach);
     }

@@ -3,14 +3,14 @@
 </script>
 
 <main
-    class="text-[var(--text-main)] flex flex-col justify-center min-h-screen pt-16 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <Card
         title="grammaCy"
         githubLink="https://github.com/skarokin/grammacy"
         websiteLink="https://grammacy.com/"
         description="A multi-language grammar checking library built with spaCy to build dependency parser-based grammar checkers.
-        Our English model rivals transformer-based models in accuracy with significantly decreased latency, model size, computational
+        Our English model rivals transformer-based NMT models with significantly decreased latency, model size, computational
         cost, and development time."
     />
 
