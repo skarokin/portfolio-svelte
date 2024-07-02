@@ -29,7 +29,7 @@
     </h5>
     <p class="mb-2">
         This project aims to improve the accuracy of rule-based grammar checking
-        with dependency parsing. NMT-based systems are highly accurate, but are
+        by using dependency parsing. NMT-based systems are highly accurate, but are
         slow, resource-intensive, require significant development time, and
         often require GPUs to run. Traditional rule-based systems are extremely
         fast and lightweight, but are too inaccurate to be used in production.
@@ -44,8 +44,7 @@
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
-            A multi-language grammar checking library to produce CPU-optimized
-            spaCy pipelines for dependency parser-based grammar checking.
+            A customizable, multi-language grammar checking library built with spaCy.
         </li>
         <li>
             Builds fast, lightweight, CPU-optimized spaCy pipelines for
@@ -62,7 +61,7 @@
             processing time on OntoNotes 5.0 from >220s to 20-30s.
         </li>
         <li>
-            Prepackaged English spaCy pipeline trained on GUM corpus with 34
+            Prepackaged English model trained on GUM corpus with 34
             augmentations. 98% tagger accuracy, 93% parser LAS, and 98%
             morphologizer accuracy. Total model size is only 10.7MB.
         </li>
@@ -73,8 +72,7 @@
             and much more.
         </li>
         <li>
-            Integrated English grammar checker with symspellpy for fast spelling
-            correction.
+            Integrated with symspellpy for fast spelling correction.
         </li>
         <li>
             Built a Flask API for English grammar and spell checking, deployed

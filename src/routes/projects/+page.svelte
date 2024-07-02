@@ -10,7 +10,7 @@
         githubLink="https://github.com/skarokin/grammacy"
         websiteLink="https://grammacy.com/"
         description="A multi-language grammar checking library built with spaCy to build dependency parser-based grammar checkers.
-        Our English model rivals transformer-based NMT models with significantly decreased latency, model size, computational
+        Our prepackaged English model rivals transformer NMT models with significantly decreased latency, model size, computational
         cost, and development time."
     />
 
