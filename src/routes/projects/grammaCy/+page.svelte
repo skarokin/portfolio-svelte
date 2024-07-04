@@ -38,9 +38,9 @@
     </p>
     <p class="mb-2">
         Developed by me (library, model, rules, API, frontend),
-        <a href="https://github.com/akuwuh">Isaac Nguyen</a> (library, API,
+        <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (library, API,
         frontend), and
-        <a href="https://github.com/PranshuS27">Pranshu Sarin</a> (rules, API).
+        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (rules, API).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
