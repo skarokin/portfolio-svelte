@@ -16,7 +16,7 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">grammaCy</h1>
+    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">grammaCy</h1>
     <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
         <a href="https://github.com/skarokin/grammacy" target="_blank">
             github

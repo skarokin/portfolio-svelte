@@ -8,6 +8,7 @@
     <Card
         title="grammaCy"
         githubLink="https://github.com/skarokin/grammacy"
+        websiteName="grammacy.com"
         websiteLink="https://grammacy.com/"
         description="A multi-language grammar checking library built with spaCy to build dependency parser-based grammar checkers.
         Our prepackaged English model rivals transformer NMT models with significantly decreased latency, model size, computational
@@ -17,6 +18,7 @@
     <Card
         title="ref:type"
         githubLink="https://github.com/skarokin/ref-type"
+        websiteName="reftype.app"
         websiteLink="https://https://steam-link-409216.web.app/"
         description="A competitive typing game built with React and Node. Uses Google Cloud SQL to store user data and leaderboard status."
     />

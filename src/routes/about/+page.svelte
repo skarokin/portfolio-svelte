@@ -47,46 +47,22 @@
     <hr class="border-[var(--text-main)] w-1/2 my-4" />
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
-            Built with SvelteKit and Tailwind CSS.
-        </li>
-        <li>
-            Hosted on Firebase Hosting.
+            Built with SvelteKit and Tailwind CSS, hosted on Firebase.
         </li>
         <li>
             (Almost) zero JavaScript.
         </li>
         <li>
-            Inspired by the Catppuccin Latte theme.
+            Color palette inspired by the Catppuccin Latte theme.
         </li>
         <li>
             Source code available on
-            <a href="https://github.com/skarokin/portfolio-svelte" target="_blank">
-                GitHub.
-            </a>
+            <a 
+                href="https://github.com/skarokin/portfolio-svelte"
+                target="_blank"
+                class="hover:underline inline-block"
+            >
+                GitHub
+            </a>.
         </li>
 </main>
-
-<style>
-    a {
-        transition: all 0.2s ease;
-        display: inline-block; 
-    }
-
-    a:hover {
-        text-decoration: underline;
-    }
-
-    a::after {
-        font-family: monospace;
-        content: "\2197";
-        margin-left: 0.25em;
-        transition: all 0.2s ease; 
-        display: inline-block; 
-        transform-origin: center; 
-    }
-
-    a:hover::after {
-        transform: translate(2px, -2px) scale(1.2);
-        color: var(--peach);
-    }
-</style>

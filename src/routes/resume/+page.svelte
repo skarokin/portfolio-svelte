@@ -13,24 +13,24 @@
 
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">education</h1>
     <hr class="border-[var(--text-main)] w-1/2 my-4" />
-    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-4">
+    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-xl sm:text-2xl">
             Rutgers University-New Brunswick
         </h3>
         <h5 class="text-lg sm:text-xl">Bachelor of Arts - Computer Science</h5>
         <h5 class="text-lg sm:text-xl">Sep 2022 - May 2026</h5>
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
-            <li>GPA: 3.88</li>
-            <li>Dean's List: 2022-2024</li>
+            <li><span class="font-bold">GPA:</span> 3.88</li>
+            <li><span class="font-bold">Dean's List:</span> 2022-2024</li>
             <li>
-                Coursework: DSA, Computer Architecture, Databases, Data
+                <span class="font-bold">Coursework:</span> DSA, Computer Architecture, Databases, Data
                 Management, Deep Learning, Principles of Programming Languages
             </li>
         </ul>
     </div>
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">experience</h1>
     <hr class="border-[var(--text-main)] w-1/2 my-4" />
-    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-4">
+    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-xl sm:text-2xl">UHACCS Hackathon 2022</h3>
         <h5 class="text-lg sm:text-xl">4th place</h5>
         <h5 class="text-lg sm:text-xl">Dec 2022</h5>
@@ -47,12 +47,12 @@
     </div>
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">projects</h1>
     <hr class="border-[var(--text-main)] w-1/2 my-4" />
-    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-4">
+    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-xl sm:text-2xl">grammaCy</h3>
         <h5 class="text-lg sm:text-xl">
             Python, spaCy, Flask, AWS EC2, Docker, Svelte, Firebase
         </h5>
-        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
+        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4">
             <li>
                 Developed a multi-language grammar checking library with spaCy
                 to build real-time grammar checkers with dependency parsing.
@@ -96,7 +96,7 @@
     </div>
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">skills</h1>
     <hr class="border-[var(--text-main)] w-1/2 my-4" />
-    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-4">
+    <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
             <li>
                 <span class="font-bold">Languages:</span> Python, Java, TypeScript,

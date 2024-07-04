@@ -37,7 +37,8 @@
             </li>
         </ul>
         <p class="text-base sm:text-lg">
-            Feel free to reach out to me on any of these platforms! I'm open to collaborations, job opportunities, or just a chat.
+            Feel free to reach out to me on any of these platforms!
+            I'm open to project collaborations and job opportunities.
         </p>
     </div>
 </main>
@@ -47,26 +48,7 @@
         max-width: fit-content;
     }
 
-    li a {
-        transition: all 0.2s ease;
-        display: inline-block; 
-    }
-
     li a:hover {
         text-decoration: underline;
-    }
-
-    li a::after {
-        font-family: monospace;
-        content: "\2197";
-        margin-left: 0.25em;
-        transition: all 0.2s ease; 
-        display: inline-block; 
-        transform-origin: center; 
-    }
-
-    li a:hover::after {
-        transform: translate(5px, -5px) scale(1.3);
-        color: var(--peach);
     }
 </style>

@@ -16,7 +16,7 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">ref:type</h1>
+    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">ref:type</h1>
     <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
         <a href="https://github.com/skarokin/ref-type" target="_blank">
             github
