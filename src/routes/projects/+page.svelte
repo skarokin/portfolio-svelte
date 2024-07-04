@@ -19,7 +19,7 @@
         title="ref:type"
         githubLink="https://github.com/skarokin/ref-type"
         websiteName="reftype.app"
-        websiteLink="https://https://steam-link-409216.web.app/"
+        websiteLink="https://steam-link-409216.web.app/"
         description="A competitive typing game built with React and Node. Uses Google Cloud SQL to store user data and leaderboard status."
     />
 
