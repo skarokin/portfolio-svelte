@@ -30,17 +30,17 @@
     <p class="mb-2">
         This project aims to improve the accuracy of rule-based grammar checking
         by using dependency parsing. NMT-based systems are highly accurate, but are
-        slow, resource-intensive, require significant development time, and
-        often require GPUs to run. Traditional rule-based systems are extremely
-        fast and lightweight, but are too inaccurate to be used in production.
+        slow, require significant development time, and often use resource-intensive transformers.
+        Traditional rule-based systems are extremely fast and lightweight,
+        but are too inaccurate to be used in production.
         We leverage all the benefits of rule-based systems, while improving
         accuracy to a level that is competitive with NMT-based grammar checkers.
     </p>
     <p class="mb-2">
-        Developed by me (library, model, rules, API, frontend),
+        Developed by me (library, model, rules, API, website),
         <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (library, API,
-        frontend), and
-        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (rules, API).
+        website), and
+        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (library, rules, API).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>

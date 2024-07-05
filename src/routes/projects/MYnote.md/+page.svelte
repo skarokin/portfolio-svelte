@@ -27,7 +27,7 @@
     </h5>
     <p class="mb-2">A markdown note-taking app with Electron. My first ever project!</p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
-        <li>Supports syntax highlighting and code blocks.</li>
+        <li>Supports syntax highlighting in code blocks and LaTeX.</li>
         <li>
             Notes are stored locally as .md files through the fs module and
             rendered with markdown-it.
