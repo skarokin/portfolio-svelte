@@ -111,7 +111,7 @@
                 PyTorch, OpenCV, spaCy
             </li>
             <li>
-                <span class="font-bold">Tools/Platforms:</span>Git, GCP, AWS
+                <span class="font-bold">Tools/Platforms:</span> Git, GCP, AWS
                 EC2, Docker, Jupyter Notebook
             </li>
         </ul>
