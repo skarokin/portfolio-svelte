@@ -37,9 +37,9 @@
         accuracy to a level that is competitive with NMT-based grammar checkers.
     </p>
     <p class="mb-2">
-        Developed by me (library, model, rules, API, website),
+        Developed by me (library, model, rules, API, website, deployment),
         <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (library, API,
-        website), and
+        website, deployment), and
         <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (library, rules, API).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
@@ -75,8 +75,14 @@
             Integrated with symspellpy for fast spelling correction.
         </li>
         <li>
-            Built a Flask API for English grammar and spell checking, deployed
-            on AWS EC2 through Docker. Average prediction time is 50ms.
+            Built a Flask API for English grammar and spell checking running on Gunicorn.
+            Average prediction time is 25ms.
+        </li>
+        <li>
+            Used Nginx for SSL termination, rate limiting, and load balancing.
+        </li>
+        <li>
+            Deployed the Gunicorn and Nginx services on an AWS EC2 instance with Docker Compose.    
         </li>
         <li>
             Developed a Svelte website for library documentation and API usage,
