@@ -79,14 +79,16 @@
             Average prediction time is 25ms.
         </li>
         <li>
+            Used Certbot and a cron job to get and automatically renew SSL certificates.
+        </li>
+        <li>
             Used Nginx for SSL termination, rate limiting, and load balancing.
         </li>
         <li>
-            Deployed the Gunicorn and Nginx services on an AWS EC2 instance with Docker Compose.    
+            Deployed the Gunicorn, Nginx, and Certbot services on AWS EC2 with Docker Compose.    
         </li>
         <li>
-            Developed a Svelte website for library documentation and API usage,
-            deployed on Firebase Hosting.
+            Deployed a Svelte website for library documentation, API usage, and a dev blog on Firebase Hosting.
         </li>
     </ul>
 </main>
