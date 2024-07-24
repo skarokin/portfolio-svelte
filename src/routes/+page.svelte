@@ -1,5 +1,5 @@
 <script>
-    import sean from "$lib/assets/sean.jpg";
+    import sean from "$lib/assets/sean.png";
 </script>
 
 <!-- vertical centering only for the home page -->
@@ -9,7 +9,7 @@
     <img
         src={sean}
         alt="Sean Kim"
-        class="w-[150px] sm:w-[200px] h-auto rounded-xl mb-8"
+        class="w-[150px] sm:w-[200px] h-auto rounded-full mb-8 self-center sm:self-start shadow-2xl"
     />
 
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">
@@ -20,8 +20,8 @@
     </h3>
 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        Hi! I'm 20 years old and pursuing a bachelor's in computer science. I have
-        experience in ML engineering and full stack web development.
+        Hi! I'm 20 years old and pursuing a bachelor's in computer science. I have experience in
+        ML engineering, full-stack development, and DevOps.
     </p>
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">

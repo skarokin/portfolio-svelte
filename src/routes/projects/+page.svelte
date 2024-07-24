@@ -16,6 +16,16 @@
     />
 
     <Card
+        title="ref:note"
+        githubLink="https://github.com/akuwuh/ref-note"
+        websiteName="refnote.app"
+        websiteLink="https://refnote.app/"
+        description="A student-focused knowledge management system built with Next, featuring Socket.IO collaborative note-taking,
+        schedule management, grade tracking, and class-specific task management. Uses a Go backend on Firebase Cloud Functions to handle users,
+        classes, notes, schedules, tasks, and granular permissions on a Firestore database with a Redis cache."
+    />
+
+    <Card
         title="ref:type"
         githubLink="https://github.com/skarokin/ref-type"
         websiteName="reftype.app"

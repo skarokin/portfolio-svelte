@@ -12,42 +12,38 @@
                 </a>
             </li>
             <li class="mx-2">/</li>
-            <li class="text-gray-500" aria-current="page">ref:type</li>
+            <li class="text-gray-500" aria-current="page">ref:note</li>
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">ref:type</h1>
+    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">ref:note</h1>
     <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
-        <a href="https://github.com/skarokin/ref-type" target="_blank">
+        <a href="https://github.com/akuwuh/ref-note" target="_blank">
             github
         </a>
         |
-        <a href="https://steam-link-409216.web.app/" target="_blank">
-            reftype.app
+        <a href="https://www.refnote.app/" target="_blank">
+            refnote.app
         </a>
     </h3>
     <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
-        TypeScript, Node, Express, React, Tailwind, Google Cloud Platform
+        Go, TypeScript, Next, Node, Socket.IO, Firestore, Redis, AWS EC2, Firebase
     </h5>
     <p class="mb-2">
-        A full-stack competitive typing game. Users compete for the top 10
-        leaderboard positions.
+        A tool for students to manage notes, schedules, tasks, and grades for all of their classes.
+        Students can share classes to collaborate on notes, tasks, and schedules while maintaining granular permissions and
+        private grades. 
+    </p>
+    <p class="mb-2">
+        Developed by <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (tbd) and me (tbd).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
-            Frontend built with React and Tailwind CSS, deployed on Firebase
-            Hosting.
+            this project is currently in development
         </li>
         <li>
-            Backend built with Node and Express, deployed on Firebase Cloud
-            Functions.
+            but should be done before the school year starts
         </li>
-        <li>Cookies and JWT for authentication and user sessions.</li>
-        <li>
-            MySQL database hosted on Google Cloud SQL for user information.
-            Custom hash and salt with bcrypt for password security.
-        </li>
-        <li>Live-updated leaderboard storing the top 10 typers.</li>
     </ul>
 </main>
 
