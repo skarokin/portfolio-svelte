@@ -23,7 +23,7 @@
         </a>
     </h3>
     <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
-        JavaScript, Node, HTML, CSS
+        JavaScript, Node.js, HTML, CSS
     </h5>
     <p class="mb-2">A markdown note-taking app with Electron. My first ever project!</p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">

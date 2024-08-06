@@ -25,7 +25,7 @@
         <a href="https://grammacy.com" target="_blank"> grammacy.com </a>
     </h3>
     <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
-        Python, spaCy, Flask, Docker, AWS EC2, Svelte, Firebase
+        Python, spaCy, Flask, Docker, AWS EC2, SvelteKit, Firebase
     </h5>
     <p class="mb-2">
         This project aims to improve the accuracy of rule-based grammar checking

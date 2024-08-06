@@ -27,7 +27,7 @@
         </a>
     </h3>
     <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
-        Go, TypeScript, Next, Node, Socket.IO, Firestore, Redis, AWS EC2, Firebase
+        Go, TypeScript, Next.js, Node.js, Socket.IO, Firestore, AWS EC2, GCP
     </h5>
     <p class="mb-2">
         A tool for students to manage notes, schedules, tasks, and grades for all of their classes.
@@ -55,7 +55,8 @@
     }
 
     li a:hover,
-    h3 a:hover {
+    h3 a:hover, 
+    p a:hover {
         text-decoration: underline;
     }
 

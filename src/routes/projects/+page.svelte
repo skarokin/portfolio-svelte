@@ -20,9 +20,9 @@
         githubLink="https://github.com/akuwuh/ref-note"
         websiteName="refnote.app"
         websiteLink="https://refnote.app/"
-        description="A student-focused knowledge management system built with Next, featuring Socket.IO collaborative note-taking,
-        schedule management, grade tracking, and class-specific task management. Uses a Go backend on Firebase Cloud Functions to handle users,
-        classes, notes, schedules, tasks, and granular permissions on a Firestore database with a Redis cache."
+        description="A Next.js note-taking app for students, focusing on class-based organization and real-time collaboration
+        with Socket.IO. Uses a Go backend on Google Cloud Functions to handle data storage and granular permissions on a
+        Firestore database. Uses OAuth2 (specifically Google Sign-In) and JWT for authentication and protected routes."
     />
 
     <Card
@@ -30,7 +30,8 @@
         githubLink="https://github.com/skarokin/ref-type"
         websiteName="reftype.app"
         websiteLink="https://steam-link-409216.web.app/"
-        description="A competitive typing game built with React and Node. Uses Google Cloud SQL to store user data and leaderboard status."
+        description="A competitive typing game built with React and Node.js. Uses Google Cloud SQL
+        to store user data and leaderboard status."
     />
 
     <Card
@@ -45,7 +46,7 @@
         title="MYnote.md"
         githubLink="https://github.com/skarokin/MYnote.md"
         websiteLink=""
-        description="A markdown note-taking app built with Node. Stores notes locally and renders them with markdown-it.
+        description="A markdown note-taking app built with Node.js. Stores notes locally and renders them with markdown-it.
         My first ever project!"
     />
 </main>

@@ -27,7 +27,7 @@
         </a>
     </h3>
     <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
-        TypeScript, Node, Express, React, Tailwind, Google Cloud Platform
+        TypeScript, Node.js, Express.js, React, Tailwind, GCP
     </h5>
     <p class="mb-2">
         A full-stack competitive typing game. Users compete for the top 10
