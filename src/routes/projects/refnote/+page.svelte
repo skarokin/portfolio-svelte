@@ -30,9 +30,8 @@
         Go, TypeScript, Next.js, Node.js, Socket.IO, Firestore, AWS EC2, GCP
     </h5>
     <p class="mb-2">
-        A tool for students to manage notes, schedules, tasks, and grades for all of their classes.
-        Students can share classes to collaborate on notes, tasks, and schedules while maintaining granular permissions and
-        private grades. 
+        A tool for students to manage notes for all of their classes.
+        Students can share classes with granular permissions and collaborate on notes in real-time.
     </p>
     <p class="mb-2">
         Developed by <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (tbd) and me (tbd).

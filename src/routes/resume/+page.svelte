@@ -4,7 +4,7 @@
     <p class="text-sm sm:text-base mb-4">
         interested? check out the
         <a
-            href="https://docs.google.com/document/d/1Lx08w3H91Z7bkabc3S1iGBtXa9qtNXdhNe58tYcncno/export?format=pdf"
+            href="https://docs.google.com/document/d/1tRDzDHee2Tzo69DIKUbjzBvazWD5S1xeZPv4q8h0x50/export?format=pdf"
             target="_blank"
         >
             pdf version
@@ -31,17 +31,20 @@
     <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">experience</h1>
     <hr class="border-[var(--text-main)] w-1/2 my-4" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
-        <h3 class="font-semibold text-xl sm:text-2xl">UHACCS Hackathon 2022</h3>
-        <h5 class="text-lg sm:text-xl">4th place</h5>
-        <h5 class="text-lg sm:text-xl">Dec 2022</h5>
+        <h3 class="font-semibold text-xl sm:text-2xl">ACL Agency LLC</h3>
+        <h5 class="text-lg sm:text-xl">Full-Stack Developer</h5>
+        <h5 class="text-lg sm:text-xl">June 2024 - Aug 2024</h5>
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
             <li>
-                Led a two-person team to develop a housing price prediction
-                model with Java on CSV datasets
+                Rebuilt company website with SvelteKit, adding SEO-friendly Korean language support with SSR
+                which boosted site traffic by 30% and enhanced market presence in the local community.
             </li>
             <li>
-                Implemented ordinary linear regression to predict prices based
-                on square footage, number of rooms, and location
+                Optimized an internal Go service with goroutines, achieving a 42% increase in insurance claims
+                processing speed on over 500 concurrent OCR and file compression tasks.
+            </li>
+            <li>
+                Deployed service on AWS EC2 with Nginx for SSL termination and whitelisting using Docker Compose.
             </li>
         </ul>
     </div>
@@ -50,47 +53,46 @@
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-xl sm:text-2xl">grammaCy</h3>
         <h5 class="text-lg sm:text-xl">
-            Python, spaCy, Flask, AWS EC2, Docker, Svelte, Firebase
+            Python, spaCy, Flask, Nginx, Docker, AWS EC2, SvelteKit, Firebase
         </h5>
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4">
             <li>
-                Developed a multi-language grammar checking library with spaCy
-                to build real-time grammar checkers with dependency parsing.
+                Led a team of 3 to develop a grammar-checking library with spaCy featuring a CoNLL-U corpus augmentor that
+                improved processing speeds on OntoNotes 5.0 by over 10x with parallel and concurrent processing.
             </li>
             <li>
-                Created a CoNLL-U corpus augmentor with multiprocessing and
-                multithreading, increasing processing speeds by over 8x on a 2
-                million-word corpus.
+                Built a prepackaged English model by training a dependency parser (93% LAS) and POS tagger (98% accuracy)
+                on an augmented GUM corpus, checking over 20 grammar errors with 83% accuracy.
             </li>
             <li>
-                Built an English grammar checking model with a GUM-trained
-                dependency parser (93% LAS) and POS tagger (98% accuracy),
-                checking for 20+ grammar errors with 83% accuracy.
+                Constructed a Flask API endpoint running on Gunicorn to serve over 600
+                concurrent English grammar and spell-checking requests, averaging 25ms prediction times.
             </li>
             <li>
-                Deployed the English model as a dockerized Flask API on AWS EC2,
-                averaging 25ms prediction time.
+                Deployed the endpoint behind an Nginx reverse proxy for SSL termination and rate limiting on AWS EC2 using Docker Compose.
             </li>
             <li>
-                Created a Svelte web page for library documentation and usage
-                guides, deployed on Firebase Hosting.
+                Created a SvelteKit site for library documentation and API guides, deployed on Firebase Hosting.
             </li>
         </ul>
-        <h3 class="font-semibold text-xl sm:text-2xl">ref:type</h3>
-        <h5 class="text-lg sm:text-xl">TypeScript, React, Node, GCP</h5>
+        <h3 class="font-semibold text-xl sm:text-2xl">ref:note</h3>
+        <h5 class="text-lg sm:text-xl">Go, TypeScript, Node, Next, OAuth2, AWS EC2, GCP</h5>
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
             <li>
-                Developed a competitive typing game with React, deployed on
-                Firebase Hosting with 120 active users.
+                Led a team of 2 to develop a collaborative note editor with Next, deployed on Firebase Hosting.
             </li>
             <li>
-                Leveraged Firebase Cloud Functions written in Node for live
-                leaderboard and user profile updates, ensuring consistency
-                between clients with sub-150ms latency.
+                Implemented real-time note collaboration using Socket.IO running on AWS EC2, handling 500
+                concurrent note edits with 100% consistency between clients.
             </li>
             <li>
-                Implemented a MySQL database on Google Cloud SQL to manage user
-                data and leaderboard status.
+                Built a Go backend on Google Cloud Functions, resulting in cold start times under 100ms.
+            </li>
+            <li>
+                Secured API endpoints using OAuth2 and JWT, enabling 1000 users to safely access collaborative features.
+            </li>
+            <li>
+                Leveraged Firestore to store user and note data, implementing granular access control for each note.
             </li>
         </ul>
     </div>
@@ -99,20 +101,16 @@
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
             <li>
-                <span class="font-bold">Languages:</span> Python, Java, TypeScript,
-                JavaScript, C, SQL
+                <span class="font-bold">Languages:</span> Python, TS/JS, Go, Java, C, SQL
             </li>
             <li>
-                <span class="font-bold">Web Dev:</span> Node, Flask, Express, React,
-                Next, Svelte, Tailwind
+                <span class="font-bold">ML/DS:</span> NumPy, Pandas, PyTorch, OpenCV, spaCy, NLTK
             </li>
             <li>
-                <span class="font-bold">ML/DS:</span> NumPy, Pandas, Matplotlib,
-                PyTorch, OpenCV, spaCy
+                <span class="font-bold">Web Dev:</span> Flask, Node, Express, Nginx, React, Next, Svelte, Tailwind
             </li>
             <li>
-                <span class="font-bold">Tools/Platforms:</span> Git, GCP, AWS
-                EC2, Docker, Jupyter Notebook
+                <span class="font-bold">Tools/Platforms:</span> Git, AWS EC2, GCP, Docker
             </li>
         </ul>
     </div>

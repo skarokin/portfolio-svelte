@@ -28,11 +28,12 @@
         Python, spaCy, Flask, Docker, AWS EC2, SvelteKit, Firebase
     </h5>
     <p class="mb-2">
-        This project aims to improve the accuracy of rule-based grammar checking
+        Our proposal for a new method of grammar checking; a hybrid approach that prioritizes speed,
+        explainability, and resource efficiency while maintaining high accuracy.
+        Aims to improve the accuracy of rule-based grammar checking
         by using dependency parsing. NMT-based systems are highly accurate, but are
         slow, require significant development time, and often use resource-intensive transformers.
-        Traditional rule-based systems are extremely fast and lightweight,
-        but are too inaccurate to be used in production.
+        Traditional rule-based systems are fast and lightweight, but often inaccurate.
         We leverage all the benefits of rule-based systems, while improving
         accuracy to a level that is competitive with NMT-based grammar checkers.
     </p>
