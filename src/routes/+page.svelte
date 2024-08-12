@@ -1,5 +1,5 @@
 <script>
-    import sean from "$lib/assets/sean.png";
+    import sean from "$lib/assets/sean.jpg";
 </script>
 
 <!-- vertical centering only for the home page -->
@@ -8,7 +8,7 @@
 >
     <img
         src={sean}
-        alt="Sean Kim"
+        alt="sean kim"
         class="w-[150px] sm:w-[200px] h-auto rounded-full mb-8 self-center sm:self-start shadow-2xl"
     />
 
