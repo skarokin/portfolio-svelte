@@ -22,7 +22,7 @@
         websiteLink="https://refnote.app/"
         description="A Next.js note-taking app for students, focusing on class-based organization and real-time collaboration
         with Socket.IO. Uses a Go backend on Google Cloud Functions to handle data storage and granular permissions on a
-        Firestore database. Uses OAuth2 (specifically Google Sign-In) and JWT for authentication and protected routes."
+        Firestore database. Uses OAuth2 (Google Sign-In) and JWT for authentication."
     />
 
     <Card

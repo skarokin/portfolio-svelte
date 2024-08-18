@@ -34,14 +34,14 @@
         Students can share classes with granular permissions and collaborate on notes in real-time.
     </p>
     <p class="mb-2">
-        Developed by <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (tbd) and me (tbd).
+        Developed by me and <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a>.
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
             this project is currently in development
         </li>
         <li>
-            but should be done before the school year starts
+            but me and Isaac are working hard to get it out before the school year starts!
         </li>
     </ul>
 </main>

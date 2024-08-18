@@ -41,7 +41,7 @@
         Developed by me (library, model, rules, API, website, deployment),
         <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (library, API,
         website, deployment), and
-        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (library, rules, API).
+        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (library, rules).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
