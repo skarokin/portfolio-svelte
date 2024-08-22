@@ -16,8 +16,8 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">ref:type</h1>
-    <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
+    <h1 class="font-semibold text-lg sm:text-2xl">ref:type</h1>
+    <h3 class="font-semibold text-base sm:text-xl">
         <a href="https://github.com/skarokin/ref-type" target="_blank">
             github
         </a>
@@ -26,10 +26,10 @@
             reftype.app
         </a>
     </h3>
-    <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
+    <h5 class="text-sm sm:text-base mb-2 sm:mb-4">
         TypeScript, Node.js, Express.js, React, Tailwind, GCP
     </h5>
-    <p class="mb-2">
+    <p class="text-sm sm:text-base mb-2">
         A full-stack competitive typing game. Users compete for the top 10
         leaderboard positions.
     </p>

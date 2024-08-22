@@ -20,7 +20,8 @@
     </h3>
 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        Pursuing a Bachelor's in CS. I have experience in ML engineering, full-stack development, and DevOps.
+        I'm a CS student based in Bergen County, NJ with experience in ML engineering,
+        full-stack web development, and DevOps.
     </p>
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">

@@ -11,15 +11,15 @@
         </a>
     </p>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">education</h1>
-    <hr class="border-[var(--text-main)] w-1/2 my-4" />
+    <h1 class="font-semibold text-lg sm:text-2xl">education</h1>
+    <hr class="border-[var(--text-main)] w-full my-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
-        <h3 class="font-semibold text-xl sm:text-2xl">
+        <h3 class="font-semibold text-base sm:text-xl">
             Rutgers University-New Brunswick
         </h3>
-        <h5 class="text-lg sm:text-xl">Bachelor of Arts - Computer Science</h5>
-        <h5 class="text-lg sm:text-xl">Sep 2022 - May 2026</h5>
-        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
+        <h5 class="text-sm sm:text-base">Bachelor of Arts - Computer Science</h5>
+        <h5 class="text-sm sm:text-base">Sep 2022 - May 2026</h5>
+        <ul class="text-xs sm:text-sm list-disc pl-4 sm:pl-8">
             <li><span class="font-bold">GPA:</span> 3.88</li>
             <li><span class="font-bold">Dean's List:</span> 2022-2024</li>
             <li>
@@ -28,13 +28,13 @@
             </li>
         </ul>
     </div>
-    <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">experience</h1>
-    <hr class="border-[var(--text-main)] w-1/2 my-4" />
+    <h1 class="font-semibold text-lg sm:text-2xl">experience</h1>
+    <hr class="border-[var(--text-main)] w-full my-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
-        <h3 class="font-semibold text-xl sm:text-2xl">ACL Agency LLC</h3>
-        <h5 class="text-lg sm:text-xl">Full-Stack Developer</h5>
-        <h5 class="text-lg sm:text-xl">June 2024 - Aug 2024</h5>
-        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
+        <h3 class="font-semibold text-base sm:text-xl">ACL Agency LLC</h3>
+        <h5 class="text-sm sm:text-base">Full-Stack Developer</h5>
+        <h5 class="text-sm sm:text-base">June 2024 - Aug 2024</h5>
+        <ul class="text-xs sm:text-sm list-disc pl-4 sm:pl-8">
             <li>
                 Rebuilt company website with SvelteKit, adding SEO-friendly Korean language support with SSR
                 which boosted site traffic by 30% and enhanced market presence in the local community.
@@ -48,11 +48,11 @@
             </li>
         </ul>
     </div>
-    <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">projects</h1>
-    <hr class="border-[var(--text-main)] w-1/2 my-4" />
+    <h1 class="font-semibold text-lg sm:text-2xl">projects</h1>
+    <hr class="border-[var(--text-main)] w-full my-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
-        <h3 class="font-semibold text-xl sm:text-2xl">grammaCy</h3>
-        <h5 class="text-lg sm:text-xl">
+        <h3 class="font-semibold text-base sm:text-xl">grammaCy</h3>
+        <h5 class="text-sm sm:text-base">
             Python, spaCy, Flask, Nginx, Docker, AWS EC2, SvelteKit, Firebase
         </h5>
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4">
@@ -75,9 +75,9 @@
                 Created a SvelteKit site for library documentation and API guides, deployed on Firebase Hosting.
             </li>
         </ul>
-        <h3 class="font-semibold text-xl sm:text-2xl">ref:note</h3>
-        <h5 class="text-lg sm:text-xl">Go, TypeScript, Node, Next, OAuth2, AWS EC2, GCP</h5>
-        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
+        <h3 class="font-semibold text-base sm:text-xl">ref:note</h3>
+        <h5 class="text-sm sm:text-base">Go, TypeScript, Node, Next, OAuth2, AWS EC2, GCP</h5>
+        <ul class="text-xs sm:text-sm list-disc pl-4 sm:pl-8">
             <li>
                 Led a team of 2 to develop a collaborative note editor with Next, deployed on Firebase Hosting.
             </li>
@@ -96,10 +96,10 @@
             </li>
         </ul>
     </div>
-    <h1 class="font-semibold text-2xl sm:text-4xl -mb-0.5">skills</h1>
-    <hr class="border-[var(--text-main)] w-1/2 my-4" />
+    <h1 class="font-semibold text-lg sm:text-2xl">skills</h1>
+    <hr class="border-[var(--text-main)] w-full my-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
-        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8">
+        <ul class="text-xs sm:text-sm list-disc pl-4 sm:pl-8">
             <li>
                 <span class="font-bold">Languages:</span> Python, TS/JS, Go, Java, C, SQL
             </li>

@@ -5,16 +5,16 @@
         <a href="/"> skarokin </a>
     </div>
     <ul class="flex font-semibold text-base sm:text-xl">
-        <li class="mr-4 sm:mr-16">
+        <li class="mr-6 sm:mr-16">
             <a href="/projects"> projects </a>
         </li>
-        <li class="mr-4 sm:mr-16">
+        <li class="mr-6 sm:mr-16">
             <a href="/contacts"> contacts </a>
         </li>
-        <li class="mr-4 sm:mr-16">
+        <li class="mr-6 sm:mr-16">
             <a href="/about"> about </a>
         </li>
-        <li class="mr-4 sm:mr-16">
+        <li class="mr-6 sm:mr-16">
             <a href="/resume"> resume </a>
         </li>
     </ul>
@@ -30,16 +30,12 @@
 
     li:hover {
         list-style-type: ">";
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     @media (max-width: 640px) {
         li {
             padding-left: 0.15rem;
-        }
-
-        li:hover {
-            transform: scale(1.05);
         }
 
         .skarokin a {
@@ -73,7 +69,7 @@
 
     .skarokin:hover {
         color: var(--peach);
-        transform: scale(1.1);
+        transform: scale(1.05);
     }
 
     @media (min-width: 641px) {

@@ -16,16 +16,16 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">MYnote.md</h1>
-    <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
+    <h1 class="font-semibold text-lg sm:text-2xl">MYnote.md</h1>
+    <h3 class="font-semibold text-base sm:text-xl">
         <a href="https://github.com/skarokin/MYnote.md" target="_blank">
             github
         </a>
     </h3>
-    <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
+    <h5 class="text-sm sm:text-base mb-2 sm:mb-4">
         JavaScript, Node.js, HTML, CSS
     </h5>
-    <p class="mb-2">A markdown note-taking app with Electron. My first ever project!</p>
+    <p class="text-sm sm:text-base mb-2">A markdown note-taking app with Electron. My first ever project!</p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>Supports syntax highlighting in code blocks and LaTeX.</li>
         <li>

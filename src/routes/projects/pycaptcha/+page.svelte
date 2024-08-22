@@ -16,16 +16,16 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">pycaptcha</h1>
-    <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
+    <h1 class="font-semibold text-lg sm:text-2xl">pycaptcha</h1>
+    <h3 class="font-semibold text-base sm:text-xl">
         <a href="https://github.com/skarokin/pycaptcha" target="_blank">
             github
         </a>
     </h3>
-    <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
+    <h5 class="text-sm sm:text-base mb-2 sm:mb-4">
         Python, NumPy, Pandas, Matplotlib, OpenCV, YOLOv4
     </h5>
-    <p class="mb-2">
+    <p class="text-sm sm:text-base mb-2">
         A CAPTCHA system that generates tests with YOLOv4 object detection on
         Google Street View images.
     </p>

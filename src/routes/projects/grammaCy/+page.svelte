@@ -16,18 +16,18 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">grammaCy</h1>
-    <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
+    <h1 class="font-semibold text-lg sm:text-2xl">grammaCy</h1>
+    <h3 class="font-semibold text-base sm:text-xl">
         <a href="https://github.com/skarokin/grammacy" target="_blank">
             github
         </a>
         |
         <a href="https://grammacy.com" target="_blank"> grammacy.com </a>
     </h3>
-    <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
+    <h5 class="text-sm sm:text-base mb-2 sm:mb-4">
         Python, spaCy, Flask, Docker, AWS EC2, SvelteKit, Firebase
     </h5>
-    <p class="mb-2">
+    <p class="text-sm sm:text-base mb-2">
         Our proposal for a new method of grammar checking; a hybrid approach that prioritizes speed,
         explainability, and resource efficiency while maintaining high accuracy.
         Aims to improve the accuracy of rule-based grammar checking
@@ -37,7 +37,7 @@
         We leverage all the benefits of rule-based systems, while improving
         accuracy to a level that is competitive with NMT-based grammar checkers.
     </p>
-    <p class="mb-2">
+    <p class="text-sm sm:text-base mb-2">
         Developed by me (library, model, rules, API, website, deployment),
         <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (library, API,
         website, deployment), and

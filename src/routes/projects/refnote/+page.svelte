@@ -16,8 +16,8 @@
         </ul>
     </nav>
 
-    <h1 class="font-semibold text-2xl sm:text-4xl mb-0.5">ref:note</h1>
-    <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
+    <h1 class="font-semibold text-lg sm:text-2xl">ref:note</h1>
+    <h3 class="font-semibold text-base sm:text-xl">
         <a href="https://github.com/akuwuh/ref-note" target="_blank">
             github
         </a>
@@ -26,14 +26,14 @@
             refnote.app
         </a>
     </h3>
-    <h5 class="text-base sm:text-xl mb-4 sm:mb-8">
+    <h5 class="text-sm sm:text-base mb-2 sm:mb-4">
         Go, TypeScript, Next.js, Node.js, Socket.IO, Firestore, AWS EC2, GCP
     </h5>
-    <p class="mb-2">
+    <p class="text-sm sm:text-base mb-2">
         A tool for students to manage notes for all of their classes.
         Students can share classes with granular permissions and collaborate on notes in real-time.
     </p>
-    <p class="mb-2">
+    <p class="text-sm sm:text-base mb-2">
         Developed by me and <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a>.
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
