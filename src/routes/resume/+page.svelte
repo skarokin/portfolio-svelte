@@ -76,17 +76,17 @@
             </li>
         </ul>
         <h3 class="font-semibold text-base sm:text-xl">ref:note</h3>
-        <h5 class="text-sm sm:text-base">Go, TypeScript, Node, Next, OAuth2, AWS EC2, GCP</h5>
+        <h5 class="text-sm sm:text-base">Go, TypeScript, Node, Next, OAuth2, Docker, GCP, Vercel</h5>
         <ul class="text-xs sm:text-sm list-disc pl-4 sm:pl-8">
             <li>
-                Led a team of 2 to develop a collaborative note editor with Next, deployed on Firebase Hosting.
+                Led a team of 2 to develop a collaborative note editor with Next, deployed on Vercel.
             </li>
             <li>
-                Implemented real-time note collaboration using Socket.IO running on AWS EC2, handling 500
-                concurrent note edits with 100% consistency between clients.
+                Implemented real-time collaboration using Yjs on a Node WebSockets server running on Google Cloud Run,
+                handling 250 concurrent note edits with 100% consistency between clients.
             </li>
             <li>
-                Built a Go backend on Google Cloud Functions, resulting in cold start times under 100ms.
+                Built a Go backend for database operations on Google Cloud Run, reducing cold start times to 100ms.
             </li>
             <li>
                 Secured API endpoints using OAuth2 and JWT, enabling 1000 users to safely access collaborative features.
@@ -110,7 +110,7 @@
                 <span class="font-bold">Web Dev:</span> Flask, Node, Express, Nginx, React, Next, Svelte, Tailwind
             </li>
             <li>
-                <span class="font-bold">Tools/Platforms:</span> Git, AWS EC2, GCP, Docker
+                <span class="font-bold">Tools/Platforms:</span> Git, AWS EC2, GCP, Vercel, Docker
             </li>
         </ul>
     </div>

@@ -20,8 +20,10 @@
         <li>SvelteKit</li>
         <li>Go</li>
         <li>Docker</li>
-        <li>EC2</li>
+        <li>Google Cloud Run</li>
         <li>Firebase Hosting</li>
+        <li>MySQL</li>
+        <li>Obsidian</li>
     </ul>
 
     <h1 class="font-semibold text-lg sm:text-2xl">favorite songs</h1>
@@ -83,13 +85,13 @@
         </li>
         <li>Color palette inspired by the Catppuccin Latte theme.</li>
         <li>
-            Click [<a
+            GitHub repo [<a
                 href="https://github.com/skarokin/portfolio-svelte"
                 target="_blank"
                 class="hover:underline inline-block"
             >
-                me
-            </a>] for the GitHub repo.
+                here
+            </a>].
         </li>
     </ul>
 </main>

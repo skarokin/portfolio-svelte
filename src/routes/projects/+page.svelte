@@ -20,8 +20,9 @@
         githubLink="https://github.com/akuwuh/ref-note"
         websiteName="refnote.app"
         websiteLink="https://refnote.app/"
-        description="A Next.js note-taking app for students, focusing on class-based organization and real-time collaboration
-        with Socket.IO. Uses a Go backend on Google Cloud Functions to handle data storage and granular permissions on a
+        description="A Next.js note-taking app for students, focusing on class-based organization and real-time collaboration.
+        Collaborative features implemented with a Node.js WebSockets server using Yjs on Google Cloud Run.
+        Uses a Go backend on Google Cloud Run to manage data and granular permissions on a
         Firestore database. Uses OAuth2 (Google Sign-In) and JWT for authentication."
     />
 

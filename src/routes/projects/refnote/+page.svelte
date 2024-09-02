@@ -27,21 +27,37 @@
         </a>
     </h3>
     <h5 class="text-sm sm:text-base mb-2 sm:mb-4">
-        Go, TypeScript, Next.js, Node.js, Socket.IO, Firestore, AWS EC2, GCP
+        Go, TypeScript, Next.js, Node.js, OAuth2, Docker, GCP, Vercel
     </h5>
     <p class="text-sm sm:text-base mb-2">
-        A tool for students to manage notes for all of their classes.
+        A web app for students to manage notes for all of their classes.
         Students can share classes with granular permissions and collaborate on notes in real-time.
     </p>
     <p class="text-sm sm:text-base mb-2">
-        Developed by me and <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a>.
+        Developed by me (frontend, backend, database design, websockets, authentication) and
+        <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (frontend, websockets, authentication).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
-            this project is currently in development
+            Next.js app deployed on Vercel. Uses dynamic routing and a mixture of client and server-side rendering.
         </li>
         <li>
-            but me and Isaac are working hard to get it out before the school year starts!
+            Uses OAuth2 (Google Sign-In) and JWT for authentication. Sessions are managed with cookies and
+            security is ensured by verifying JWT signatures for every API request.
+        </li>
+        <li>
+            Firestore database to store user, class, and note data with granular permissions.
+        </li>
+        <li>
+            Go backend on Google Cloud Run for Firestore database management with cold start times &lt; 100ms.
+        </li>
+        <li>
+            Node.js WebSockets server on Google Cloud Run for real-time collaboration using Yjs, capable of
+            handling hundreds of concurrent connections in the same instance with low latency.
+        </li>
+        <li>
+            Dockerized Go and Node.js servers to leverage Cloud Run's auto scaling and zero-downtime deployments.
+            Used multi-stage builds to significantly reduce image size.
         </li>
     </ul>
 </main>
