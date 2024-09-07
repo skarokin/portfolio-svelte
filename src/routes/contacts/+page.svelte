@@ -3,7 +3,7 @@
 >
     <div class="mb-16">
         <h1 class="font-semibold text-lg sm:text-2xl">contacts</h1>
-        <hr class="border-[var(--text-main)] w-full my-2" />
+        <hr class="border-[var(--text-main)] w-full mb-2" />
         <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
             <li>
                 LinkedIn:

@@ -2,7 +2,7 @@
     class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <h1 class="font-semibold text-lg sm:text-2xl">about me</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
             Native English 🇺🇸 and Korean 🇰🇷, learning Japanese 🇯🇵 since 2021.
@@ -15,19 +15,17 @@
     </ul>
 
     <h1 class="font-semibold text-lg sm:text-2xl">favorite tech</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>SvelteKit</li>
         <li>Go</li>
         <li>Docker</li>
         <li>Google Cloud Run</li>
         <li>Firebase Hosting</li>
-        <li>MySQL</li>
-        <li>Obsidian</li>
     </ul>
 
     <h1 class="font-semibold text-lg sm:text-2xl">favorite songs</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
             <a
@@ -78,7 +76,7 @@
     </ul>
 
     <h1 class="font-semibold text-lg sm:text-2xl">this site</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
             Built with SvelteKit and Tailwind CSS, deployed on Firebase Hosting.

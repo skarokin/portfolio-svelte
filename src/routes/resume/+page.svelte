@@ -12,7 +12,7 @@
     </p>
 
     <h1 class="font-semibold text-lg sm:text-2xl">education</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-base sm:text-xl">
             Rutgers University-New Brunswick
@@ -29,7 +29,7 @@
         </ul>
     </div>
     <h1 class="font-semibold text-lg sm:text-2xl">experience</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-base sm:text-xl">ACL Agency LLC</h3>
         <h5 class="text-sm sm:text-base">Full-Stack Developer</h5>
@@ -49,7 +49,7 @@
         </ul>
     </div>
     <h1 class="font-semibold text-lg sm:text-2xl">projects</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <h3 class="font-semibold text-base sm:text-xl">grammaCy</h3>
         <h5 class="text-sm sm:text-base">
@@ -97,7 +97,7 @@
         </ul>
     </div>
     <h1 class="font-semibold text-lg sm:text-2xl">skills</h1>
-    <hr class="border-[var(--text-main)] w-full my-2" />
+    <hr class="border-[var(--text-main)] w-full mb-2" />
     <div class="bg-[var(--card-bg)] p-4 rounded-md mb-8">
         <ul class="text-xs sm:text-sm list-disc pl-4 sm:pl-8">
             <li>
