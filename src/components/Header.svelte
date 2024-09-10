@@ -11,7 +11,7 @@
 <header
     class="flex flex-row justify-between font-josefin-slab mt-4 absolute w-full"
 >
-    <div class="mx-4 sm:mx-16 font-semibold text-base sm:text-xl skarokin">
+    <div class="ml-4 sm:ml-16 font-semibold text-base sm:text-xl skarokin">
         <a href="/"> skarokin </a>
     </div>
     <ul class="hidden sm:flex font-semibold text-base sm:text-xl">

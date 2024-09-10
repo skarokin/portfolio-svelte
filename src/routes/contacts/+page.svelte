@@ -2,9 +2,9 @@
     class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <div class="mb-16">
-        <h1 class="font-semibold text-lg sm:text-2xl">contacts</h1>
-        <hr class="border-[var(--text-main)] w-full mb-2" />
-        <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
+        <h5 class="text-sm sm:text-base font-josefin-sans tracking-widest">contacts</h5>
+        <hr class="border-[var(--hr)] w-full mb-2" />
+        <ul class="text-sm sm:text-base list-disc pl-6 mb-4 sm:mb-8">
             <li>
                 LinkedIn:
                 <a href="https://www.linkedin.com/in/sean-kim-959174238/" target="_blank" class="hover:text-[var(--peach)] transition-colors">
