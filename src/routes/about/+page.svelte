@@ -1,5 +1,5 @@
 <main
-    class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-start pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <!-- about me -->
     <section class="mb-4 sm:mb-8">
@@ -39,7 +39,7 @@
                 <a
                     href="https://open.spotify.com/track/0o9B36SwyWjYnoXLWAyLzj?si=4047d1b2da4e4016"
                     target="_blank"
-                    class="hover:text-[var(--peach)] transition-colors"
+                    class="hover:underline"
                 >
                     EDEN - Modern Warfare
                 </a>
@@ -48,7 +48,7 @@
                 <a
                     href="https://open.spotify.com/track/59eluCMn0XbOWqeWQ91FTM?si=3033f14401904ddc"
                     target="_blank"
-                    class="hover:text-[var(--peach)] transition-colors"
+                    class="hover:underline"
                 >
                     Aimyon - <span class="font-sans">君はロックを聴かない</span>
                 </a>
@@ -57,7 +57,7 @@
                 <a
                     href="https://open.spotify.com/track/6MNY72T605kPIOH3hnioxu?si=99a5d2f016a24322"
                     target="_blank"
-                    class="hover:text-[var(--peach)] transition-colors"
+                    class="hover:underline"
                 >
                     Aimer - Ref:rain
                 </a>
@@ -66,7 +66,7 @@
                 <a
                     href="https://open.spotify.com/track/0yamqkAFAmpdLNVcmJLSo8?si=45eeb3ec5def4723"
                     target="_blank"
-                    class="hover:text-[var(--peach)] transition-colors"
+                    class="hover:underline"
                 >
                     BOOHWAL - Never Ending Story
                 </a>
@@ -75,7 +75,7 @@
                 <a
                     href="https://open.spotify.com/track/5QQ5puYbm6qI1UzwIrf0PY?si=8dba19d904d847f1"
                     target="_blank"
-                    class="hover:text-[var(--peach)] transition-colors"
+                    class="hover:underline"
                 >
                     Lee Moon Sae - <span class="font-sans">가로수 그늘 아래 서면</span
                     >

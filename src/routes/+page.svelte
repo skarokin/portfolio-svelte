@@ -58,7 +58,4 @@
         color: var(--text-main);
     }
 
-    li a:hover {
-        color: var(--peach);
-    }
 </style>

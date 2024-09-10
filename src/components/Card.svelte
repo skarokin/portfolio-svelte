@@ -47,6 +47,5 @@
 
     h5 a:hover::after {
         transform: translateX(5px) scale(1.1);
-        color: var(--peach);
     }
 </style>

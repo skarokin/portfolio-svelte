@@ -1,5 +1,5 @@
 <main
-    class="text-[var(--text-main)] flex flex-col justify-start min-h-screen pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
+    class="text-[var(--text-main)] flex flex-col justify-start pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
     <nav class="text-lg sm:text-xl mb-4 sm:mb-8">
         <ul class="list-none flex">
@@ -68,6 +68,5 @@
 
     li a:hover::before {
         transform: translateX(-10px) scale(1.2);
-        color: var(--peach);
     }
 </style>

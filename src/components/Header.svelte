@@ -92,7 +92,7 @@
 
     li:hover {
         list-style-type: ">";
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
     
     li a {
@@ -100,17 +100,12 @@
         color: var(--text-main);
     }
 
-    li a:hover {
-        color: var(--peach);
-    }
-
     .skarokin {
         transition: all 0.2s ease;
     }
 
     .skarokin:hover {
-        color: var(--peach);
-        transform: scale(1.05);
+        transform: scale(1.1);
     }
 
     @media (min-width: 641px) {
