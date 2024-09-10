@@ -14,7 +14,7 @@
         </a>
     </div>
         <p class="text-sm sm:text-base">
-            Rutgers student passionate about building accurate NLP models for resource-constrained environments,
+            Rutgers student passionate about building accurate NLP models for resource-constrained environments
             with experience in full-stack web development, DevOps, and MLOps.
         </p>
     </section>
