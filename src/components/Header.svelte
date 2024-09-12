@@ -101,6 +101,7 @@
     }
 
     .skarokin {
+        color: var(--text-main);
         transition: all 0.2s ease;
     }
 

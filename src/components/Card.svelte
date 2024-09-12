@@ -9,7 +9,7 @@
     const projectURL = `/projects/${title.replace(":", "")}`
 </script>
 
-<div class="my-4 border rounded-md p-4 bg-[var(--card-bg)]">
+<div class="my-4 rounded-md p-4 bg-[var(--card-bg)]">
     <h3 class="text-sm sm:text-base">
         <a href={projectURL}>{title}</a> |
         <a href={githubLink} target="_blank">GitHub</a>
@@ -17,7 +17,7 @@
             | <a href={websiteLink} target="_blank">{websiteName}</a>
         {/if}
     </h3>
-    <hr class="border-[var(--text-main)] w-full mb-2" />
+    <hr class="border-[var(--card-hr)] w-full mb-2" />
     <p class="text-sm sm:text-base">{description}</p>
     <h5 class="text-sm sm:text-base mt-4">
         <a href={projectURL}>read more</a>
