@@ -1,5 +1,5 @@
 <script>
-    import sean from "$lib/assets/sean.jpeg";
+    import sean from "$lib/assets/sean.jpg";
 </script>
 
 <!-- vertical centering only for the home page -->
@@ -20,7 +20,7 @@
     </h3>
 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        I'm a CS student based in Bergen County, NJ with experience in ML engineering,
+        CS student based in Bergen County, NJ with experience in ML engineering,
         full-stack web development, and DevOps.
     </p>
 
