@@ -1,5 +1,5 @@
 <script>
-    import sean from "$lib/assets/sean.jpg";
+    import sean from "$lib/assets/IMG_1331.jpg";
 </script>
 
 <!-- vertical centering only for the home page -->
