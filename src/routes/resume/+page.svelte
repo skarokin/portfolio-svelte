@@ -1,3 +1,7 @@
+<script>
+    import resume from "$lib/assets/SeanKimNov2024.pdf";
+</script>
+
 <main
     class="text-[var(--text-main)] flex flex-col justify-start pt-24 sm:pt-32 w-3/4 sm:w-1/2 mx-auto font-josefin-slab"
 >
@@ -6,7 +10,7 @@
         <div class="flex flex-row justify-between">
         <h1 class="font-bold text-lg sm:text-2xl">Sean Kim</h1>
         <a
-            href="https://docs.google.com/document/d/1tRDzDHee2Tzo69DIKUbjzBvazWD5S1xeZPv4q8h0x50/export?format=pdf"
+            href={resume}
             target="_blank"
             class="text-sm sm:text-base"
         >

@@ -1,6 +1,6 @@
 {
   ".svelte-kit/generated/client-optimized/app.js": {
-    "file": "_app/immutable/entry/app.CxmCfQKe.js",
+    "file": "_app/immutable/entry/app.uwah274o.js",
     "name": "entry/app",
     "src": ".svelte-kit/generated/client-optimized/app.js",
     "isEntry": true,
@@ -42,7 +42,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/1.js": {
-    "file": "_app/immutable/nodes/1.BZ7lK-5z.js",
+    "file": "_app/immutable/nodes/1.DviUR132.js",
     "name": "nodes/1",
     "src": ".svelte-kit/generated/client-optimized/nodes/1.js",
     "isEntry": true,
@@ -50,7 +50,7 @@
     "imports": [
       "_scheduler.Cz8KL0TK.js",
       "_index.aJHw2w3p.js",
-      "_entry._J5O-okT.js"
+      "_entry.CeiySy3d.js"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/10.js": {
@@ -124,7 +124,7 @@
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/15.js": {
-    "file": "_app/immutable/nodes/15.CdrZYlVk.js",
+    "file": "_app/immutable/nodes/15.hMTRrX0-.js",
     "name": "nodes/15",
     "src": ".svelte-kit/generated/client-optimized/nodes/15.js",
     "isEntry": true,
@@ -135,6 +135,9 @@
     ],
     "css": [
       "_app/immutable/assets/15.DSnsbWdg.css"
+    ],
+    "assets": [
+      "_app/immutable/assets/SeanKimNov2024.DOrh4xrD.pdf"
     ]
   },
   ".svelte-kit/generated/client-optimized/nodes/2.js": {
@@ -273,8 +276,8 @@
     "file": "_app/immutable/assets/app.CSE69Nel.css",
     "src": "_app.!~{00l}~.js"
   },
-  "_entry._J5O-okT.js": {
-    "file": "_app/immutable/chunks/entry._J5O-okT.js",
+  "_entry.CeiySy3d.js": {
+    "file": "_app/immutable/chunks/entry.CeiySy3d.js",
     "name": "entry",
     "imports": [
       "_scheduler.Cz8KL0TK.js"
@@ -292,16 +295,20 @@
     "name": "scheduler"
   },
   "node_modules/@sveltejs/kit/src/runtime/client/entry.js": {
-    "file": "_app/immutable/entry/start.CSii-nr1.js",
+    "file": "_app/immutable/entry/start.CYaptdfM.js",
     "name": "entry/start",
     "src": "node_modules/@sveltejs/kit/src/runtime/client/entry.js",
     "isEntry": true,
     "imports": [
-      "_entry._J5O-okT.js"
+      "_entry.CeiySy3d.js"
     ]
   },
   "src/lib/assets/IMG_1331.jpg": {
     "file": "_app/immutable/assets/IMG_1331.CBViZt5x.jpg",
     "src": "src/lib/assets/IMG_1331.jpg"
+  },
+  "src/lib/assets/SeanKimNov2024.pdf": {
+    "file": "_app/immutable/assets/SeanKimNov2024.DOrh4xrD.pdf",
+    "src": "src/lib/assets/SeanKimNov2024.pdf"
   }
 }
