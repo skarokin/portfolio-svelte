@@ -33,10 +33,6 @@
         A web app for students to manage notes for all of their classes.
         Students can share classes with granular permissions and collaborate on notes in real-time.
     </p>
-    <p class="text-sm sm:text-base mb-2">
-        Developed by me (frontend, backend, database design, websockets, authentication) and
-        <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (frontend, websockets, authentication).
-    </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
             Next.js app deployed on Vercel. Uses dynamic routing and a mixture of client and server-side rendering.
