@@ -39,14 +39,24 @@
     <section class="mb-4 sm:mb-8">
         <h5 class="text-sm sm:text-base tracking-widest font-josefin-sans">experience</h5>
         <hr class="border-[var(--hr)] w-full mb-2" />
-        <p class="text-sm sm:text-base font-bold">Full-Stack Developer Intern</p>
+        <p class="text-sm sm:text-base font-bold">Software Engineer Intern</p>
         <p class="text-sm sm:text-base">ACL Agency LLC</p>
         <p class="text-sm sm:text-base">May 2024 - Aug 2024</p>
         <ul class="text-xs sm:text-sm list-disc pl-6">
-            <li>Rebuilt company website with SvelteKit, adding SEO-friendly Korean language support with SSR which
-                boosted site traffic by 30% and conversion rate by 25%, increasing market presence in the local community.</li>
-            <li>Optimized an internal Go service with goroutines, achieving a 42% increase in insurance claims processing speed on over 500 concurrent OCR and file compression tasks.</li>
-            <li>Deployed service on AWS EC2 with Nginx for SSL termination and whitelisting using Docker Compose.</li>
+            <li>Rebuilt company website with SvelteKit, increasing market presence in the local community with SEO-friendly
+                Korean language support which boosted site traffic by 30% and increased conversion rate by 25%.
+            </li>
+            <li>
+                Optimized an internal Go service with goroutines, processing over 500 batch insurance claims 42% faster.
+            </li>
+            <li>
+                Migrated service to a horizontally scaling architecture on AWS EC2 using Docker, ELB, and EC2 Auto
+                Scaling, reducing infrastructure costs by 19% while accommodating a 12% customer base expansion
+            </li>
+            <li>
+                Implemented a MySQL database on Amazon RDS, automating manual data processing which reduced data
+                entry errors to under 1% and saved 13 hours per week in employee time on data searching and validation.
+            </li>
         </ul>
     </section>
 
@@ -54,30 +64,25 @@
     <section class="mb-4 sm:mb-8">
         <h5 class="text-sm sm:text-base tracking-widest font-josefin-sans">projects</h5>
         <hr class="border-[var(--hr)] w-full mb-2" />
-        <p class="text-sm sm:text-base font-bold">grammaCy</p>
-        <p class="text-sm sm:text-base">Python, spaCy, Flask, Nginx, Docker, AWS EC2, SvelteKit, Firebase</p>
-        <ul class="text-xs sm:text-sm list-disc pl-6 mb-2">
-            <li>Led a team of 3 to develop a grammar-checking library with spaCy featuring a CoNLL-U
-                corpus augmentor that improved processing speeds on OntoNotes 5.0 by over 10x with parallel and
-                concurrent processing.</li>
-            <li>Built a prepackaged English model by training a dependency parser (93% LAS) and POS tagger
-                (98% accuracy) on an augmented GUM corpus, checking over 20 grammar errors with 83% accuracy.</li>
-            <li>Constructed a Flask API endpoint with Gunicorn to serve the model with 15ms average prediction times.</li>
-            <li>Deployed the endpoint behind an Nginx reverse proxy for SSL termination and rate limiting on
-                AWS EC2 using Docker Compose, handling over 500 concurrent requests with under 50ms average
-                response times.</li>
-            <li>Created a SvelteKit site for library documentation and API guides, deployed on Firebase Hosting.</li>
-        </ul>
         <p class="text-sm sm:text-base font-bold">ref:note</p>
         <p class="text-sm sm:text-base">Go, TypeScript, Node.js, Next.js, OAuth2, Docker, GCP, Vercel</p>
         <ul class="text-xs sm:text-sm list-disc pl-6">
-            <li>Deployed a Next.js collaborative note editor on Vercel, leveraging server components to securely proxy over
-                50,000 daily requests, shielding sensitive payloads from clients with less than 50ms latency.</li>
-            <li>Implemented Yjs real-time collaboration using a Node.js WebSockets server deployed as a Docker container
-                on Google Cloud Run, handling over 1000 concurrent note edits with 100% consistency between clients.    </li>
-            <li>Built a horizontally-scaling Go backend Docker-packaged on Google Cloud Run to handle Firestore
-                database operations for user data, note data, and granular access control with under 100ms cold starts.</li>
-            <li>Secured all API endpoints using OAuth2 and JWT to enable safe access for 1000 daily active users.</li>
+            <li>Launched a Next.js collaborative note editor on Vercel, supporting 500 concurrent collaborative sessions.</li>
+            <li>Enabled real-time collaboration using a Node.js WebSockets server on Google Cloud Run with Docker,
+                synchronizing horizontally scaled instances via Redis Pub/Sub which reduced infrastructure costs by 37%.</li>
+            <li>Deployed a horizontally-scaling Go backend on Google Cloud Run with Docker, maintaining sub-100ms
+                cold starts and processing Firestore operations over 50% faster to support over 5,000 daily requests.</li>
+            <li>Streamlined user authentication with OAuth2 and JWT, improving user registration conversion rates by 17%.</li>
+        </ul>
+        <p class="text-sm sm:text-base font-bold">grammaCy</p>
+        <p class="text-sm sm:text-base">Python, spaCy, Flask, Nginx, Docker, AWS EC2, SvelteKit, Firebase</p>
+        <ul class="text-xs sm:text-sm list-disc pl-6 mb-2">
+            <li>Developed a grammar checking library with spaCy, achieving 83% accuracy on over 20 English grammar errors.</li>
+            <li>Engineered a Flask API hosted on AWS EC2, configured with Docker Compose and an Nginx reverse
+                proxy to handle over 250 concurrent requests at peak traffic with sub-200ms end-to-end latency.</li>
+            <li>Reduced deployment costs by 27% and improved latency by 71% via the library’s efficient model architecture.</li>
+            <li>Parallelized a CoNLL-U augmentor, achieving a 10x speedup and increasing feature velocity by 20%.</li>
+            <li>Created an interactive SvelteKit documentation site on Firebase, reducing library integration time by 30%.</li>
         </ul>
     </section>
     <!-- skills -->
