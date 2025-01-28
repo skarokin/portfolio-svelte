@@ -10,8 +10,7 @@
                 Native English 🇺🇸 and Korean 🇰🇷, learning Japanese 🇯🇵 since 2021.
             </li>
             <li>
-                IGL and coach for a Valorant team. Coach my high school's Valorant
-                and Overwatch 2 teams.
+                IGL and coach for a Valorant and Overwatch 2.
             </li>
             <li>78th on the Monkeytype 15s global leaderboard.</li>
         </ul>
@@ -19,68 +18,13 @@
 
     <!-- favorite tech -->
     <section class="mb-4 sm:mb-8">
-        <h5 class="text-sm sm:text-base font-josefin-sans tracking-widest">favorite tech</h5>
+        <h5 class="text-sm sm:text-base font-josefin-sans tracking-widest">tech stack</h5>
         <hr class="border-[var(--hr)] w-full mb-2" />
         <ul class="text-sm sm:text-base list-disc pl-6">
             <li>SvelteKit</li>
             <li>Go</li>
             <li>Docker</li>
-            <li>Google Cloud Run</li>
-            <li>Firebase Hosting</li>
-        </ul>
-    </section>
-
-    <!-- favorite songs -->
-    <section class="mb-4 sm:mb-8">
-        <h5 class="text-sm sm:text-base font-josefin-sans tracking-widest">favorite songs</h5>
-        <hr class="border-[var(--hr)] w-full mb-2" />
-        <ul class="text-sm sm:text-base list-disc pl-6">
-            <li>
-                <a
-                    href="https://open.spotify.com/track/0o9B36SwyWjYnoXLWAyLzj?si=4047d1b2da4e4016"
-                    target="_blank"
-                    class="hover:underline"
-                >
-                    EDEN - Modern Warfare
-                </a>
-            </li>
-            <li>
-                <a
-                    href="https://open.spotify.com/track/59eluCMn0XbOWqeWQ91FTM?si=3033f14401904ddc"
-                    target="_blank"
-                    class="hover:underline"
-                >
-                    Aimyon - <span class="font-sans">君はロックを聴かない</span>
-                </a>
-            </li>
-            <li>
-                <a
-                    href="https://open.spotify.com/track/6MNY72T605kPIOH3hnioxu?si=99a5d2f016a24322"
-                    target="_blank"
-                    class="hover:underline"
-                >
-                    Aimer - Ref:rain
-                </a>
-            </li>
-            <li>
-                <a
-                    href="https://open.spotify.com/track/0yamqkAFAmpdLNVcmJLSo8?si=45eeb3ec5def4723"
-                    target="_blank"
-                    class="hover:underline"
-                >
-                    BOOHWAL - Never Ending Story
-                </a>
-            </li>
-            <li>
-                <a
-                    href="https://open.spotify.com/track/5QQ5puYbm6qI1UzwIrf0PY?si=8dba19d904d847f1"
-                    target="_blank"
-                    class="hover:underline"
-                >
-                    Lee Moon Sae - <span class="font-sans">가로수 그늘 아래 서면</span
-                    >
-                </a>
-            </li>
+            <li>GCP</li>
         </ul>
     </section>
 
@@ -92,7 +36,6 @@
             <li>
                 Built with SvelteKit and Tailwind CSS, deployed on Firebase Hosting.
             </li>
-            <li>Color palette inspired by the Catppuccin Latte theme.</li>
             <li>
                 GitHub repo [<a
                     href="https://github.com/skarokin/portfolio-svelte"

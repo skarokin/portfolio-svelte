@@ -1,5 +1,5 @@
 <script>
-    import sean from "$lib/assets/IMG_2246.png";
+    import sean from "$lib/assets/IMG_2982.jpg";
 </script>
 
 <!-- vertical centering only for the home page -->
@@ -20,8 +20,8 @@
     </h3>
 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        CS student based in Bergen County, NJ specializing in high-scale, low-latency cloud infrastructure.
-        Previously interned at ACL Agency, currently looking for internship opportunities. Feel free to reach out! 
+        Specializing in high-scale, low-latency cloud infrastructure. Based in Bergen County, NJ.
+        Prev. @ ACL Agency, currently looking for summer 2025 internships.
     </p>
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">
