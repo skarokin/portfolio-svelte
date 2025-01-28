@@ -20,8 +20,8 @@
     </h3>
 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        CS student based in Bergen County, NJ with experience in ML engineering,
-        full-stack web development, and DevOps.
+        CS student based in Bergen County, NJ specializing in high-scale, low-latency cloud infrastructure.
+        Previously interned at ACL Agency, currently looking for internship opportunities. Feel free to reach out! 
     </p>
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">

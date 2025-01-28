@@ -16,6 +16,16 @@
     />
 
     <Card
+        title="copium"
+        githubLink="https://github.com/juhun32/copium"
+        websiteName="copium.dev"
+        websiteLink="https://copium.dev/"
+        description="A SvelteKit tech internship tracking platform that aggregates internship listings from various sources in real-time.
+        Uses a Go/RabbitMQ distributed search and indexing pipeline on Google Compute Engine for 
+        fast, scalable, and reliable Algolia indexing. Features Google Sign-In and uses Python to scrape internship listings."
+    />
+
+    <Card
         title="ref:note"
         githubLink="https://github.com/akuwuh/ref-note"
         websiteName="refnote.app"

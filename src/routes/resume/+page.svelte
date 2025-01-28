@@ -1,5 +1,5 @@
 <script>
-    import resume from "$lib/assets/SeanKimDec2024v3.pdf";
+    import resume from "$lib/assets/SeanKimResumeJan2025.pdf";
 </script>
 
 <main
@@ -18,8 +18,7 @@
         </a>
     </div>
         <p class="text-sm sm:text-base">
-            Rutgers student with experience building optimized NLP models and scalable,
-            real-time web applications and services.
+            Rutgers student building high-scale, low-latency cloud services.
         </p>
     </section>
 
@@ -31,7 +30,7 @@
         <p class="text-sm sm:text-base">B.A. Computer Science</p>
         <p class="text-sm sm:text-base">Sep 2022 - May 2026</p>
         <ul class="text-xs sm:text-sm list-disc pl-6">
-            <li><span class="font-bold">GPA:</span> 3.88</li>
+            <li><span class="font-bold">GPA:</span> 3.90</li>
             <li><span class="font-bold">Dean's List:</span> 2022-2024</li>
             <li><span class="font-bold">Coursework:</span> DSA, Deep Learning, Databases, Data Management, Computer Architecture </li>
     </section>

@@ -45,11 +45,16 @@
             Firestore database to store user, class, and note data with granular permissions.
         </li>
         <li>
-            Go backend on Google Cloud Run for Firestore database management with cold start times &lt; 100ms.
+            Go/Docker backend on Google Cloud Run for Firestore database management with cold start times &lt; 100ms to ensure
+            consistently low-latency API responses and auto-scaling to handle traffic spikes.
         </li>
         <li>
-            Node.js WebSockets server on Google Cloud Run for real-time collaboration using Yjs, capable of
-            handling hundreds of concurrent connections in the same instance with low latency.
+            Node.js WebSockets server on Google Cloud Run for real-time collaboration using Yjs, handling
+            over 500 concurrent collaborative sesssions.
+        </li>
+        <li>
+            Synced horizontally-scaled WS instances with Redis Pub/Sub, which reduced infrastructure costs by 37%
+            compared to Firestore's real-time database while maintaining 100% consistency and minimal latency. 
         </li>
         <li>
             Dockerized Go and Node.js servers to leverage Cloud Run's auto scaling and zero-downtime deployments.

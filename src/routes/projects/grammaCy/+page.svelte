@@ -28,20 +28,17 @@
         Python, spaCy, Flask, Docker, AWS EC2, SvelteKit, Firebase
     </h5>
     <p class="text-sm sm:text-base mb-2">
-        Our proposal for a new method of grammar checking; a hybrid approach that prioritizes speed,
-        explainability, and resource efficiency while maintaining high accuracy.
-        Aims to improve the accuracy of rule-based grammar checking
-        by using dependency parsing. NMT-based systems are highly accurate, but are
-        slow, require significant development time, and often use resource-intensive transformers.
-        Traditional rule-based systems are fast and lightweight, but often inaccurate.
-        We leverage all the benefits of rule-based systems, while improving
-        accuracy to a level that is competitive with NMT-based grammar checkers.
+        A cutting-edge grammar checking tool that combines the speed and efficiency of
+        rule-based systems with the accuracy of modern NLP techniques. Prioritizes speed,
+        explainability, and resource efficiency while maintaing high accuracy through a unique
+        dependency parse-driven approach. Designed for edge devices and real-time applications.
+
+        Deployed as a Python library and a Flask API on AWS EC2 with Docker Compose.
     </p>
     <p class="text-sm sm:text-base mb-2">
-        Developed by me (library, model, rules, API, website, deployment),
-        <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (library, API,
-        website, deployment), and
-        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (library, rules).
+        Developed by me (lead engineer),
+        <a href="https://github.com/akuwuh" target="_blank">Isaac Nguyen</a> (python dev),
+        <a href="https://github.com/PranshuS27" target="_blank">Pranshu Sarin</a> (linguistics).
     </p>
     <ul class="text-sm sm:text-base list-disc pl-4 sm:pl-8 mb-4 sm:mb-8">
         <li>
@@ -59,16 +56,15 @@
             Multithreaded + multiprocessed CoNLL-U augmentor to inject grammar
             errors based on linguistic knowledge. Significant improvement over
             random error injection. Parallel and concurrent processing decreased
-            processing time on OntoNotes 5.0 from >220s to 20-30s.
+            processing time on OntoNotes 5.0 from &gt; 220s to 20s.
         </li>
         <li>
             Prepackaged English model trained on GUM corpus with 34
-            augmentations. 98% tagger accuracy, 93% parser LAS, and 98%
+            augmentations. 83% accuracy on over 20 English grammar errors. 98% tagger accuracy, 93% parser LAS, and 98%
             morphologizer accuracy. Total model size is only 10.7MB.
         </li>
         <li>
-            Created over 20 dependency parse-based rules for English grammar
-            checking including subject-verb agreement, proper usage of
+            Prepacked rules include subject-verb agreement, proper usage of
             subjective and objective pronouns, proper usage of gerunds, copulas,
             and much more.
         </li>
@@ -76,8 +72,8 @@
             Integrated with symspellpy for fast spelling correction.
         </li>
         <li>
-            Built a Flask API for English grammar and spell checking running on Gunicorn.
-            Average prediction time is 25ms.
+            Built a Flask API to serve the model with Gunicorn. End-to-end latency less than 200ms, supports
+            250+ concurrent requests on the t2 nano instance.
         </li>
         <li>
             Used Certbot and a cron job to get and automatically renew SSL certificates.
