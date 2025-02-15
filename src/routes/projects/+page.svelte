@@ -21,8 +21,9 @@
         websiteName="copium.dev"
         websiteLink="https://copium.dev/"
         description="A SvelteKit tech internship tracking platform that aggregates internship listings from various sources in real-time.
-        Uses a Go/RabbitMQ distributed search and indexing pipeline on Google Compute Engine for 
-        fast, scalable, and reliable Algolia indexing. Features Google Sign-In and uses Python to scrape internship listings."
+        Uses a Go/RabbitMQ distributed search and indexing pipeline on Google Compute Engine for fast,
+        scalable, and reliable Algolia indexing. Leverages event sourcing for eventual consistency between data sources.
+        Features Google Sign-In and uses Python to scrape internship listings."
     />
 
     <Card

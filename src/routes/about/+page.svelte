@@ -18,13 +18,14 @@
 
     <!-- favorite tech -->
     <section class="mb-4 sm:mb-8">
-        <h5 class="text-sm sm:text-base font-josefin-sans tracking-widest">tech stack</h5>
+        <h5 class="text-sm sm:text-base font-josefin-sans tracking-widest">favorite tech</h5>
         <hr class="border-[var(--hr)] w-full mb-2" />
         <ul class="text-sm sm:text-base list-disc pl-6">
             <li>SvelteKit</li>
             <li>Go</li>
             <li>Docker</li>
             <li>GCP</li>
+            <li>MySQL</li>
         </ul>
     </section>
 

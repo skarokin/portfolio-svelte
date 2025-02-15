@@ -18,18 +18,17 @@
     <h3 class="font-semibold text-lg sm:text-2xl mb-2 sm:mb-4">
         Rutgers University-New Brunswick, 2026
     </h3>
-
+ 
     <p class="text-md sm:text-xl mb-4 sm:mb-8">
-        Specializing in high-scale, low-latency cloud infrastructure. Based in Bergen County, NJ.
-        Prev. @ ACL Agency, currently looking for summer 2025 internships.
+        Prev. Software Engineer Intern @ ACL Agency, currently seeking SWE internships.
     </p>
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">
         <li>
-            <a href="/projects">projects</a>
+            <a href="/contacts">contacts</a>
         </li>
         <li>
-            <a href="/contacts">contacts</a>
+            <a href="/projects">projects</a>
         </li>
         <li>
             <a href="/about">about</a>

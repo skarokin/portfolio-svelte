@@ -28,9 +28,9 @@
         Go, RabbitMQ, SvelteKit, Docker, Algolia, GCP
     </h5>
     <p class="text-sm sm:text-base mb-2">
-        Copium streamlines the internship hunt for tech students with a focused, purpose-built tracking solution, stripping
-        away the noise and clutter of general job boards to deliver a lightning-fast, reliable platform 
-        wrapped in a beautiful and modern UI. Designed for scale, reliability, and speed for the modern tech student.w
+        Copium.dev streamlines the internship hunt for tech students with
+        a focused, purpose-built solution that strips away the clutter of general job boards. Leverages microservices,
+        message queues, and event sourcing for a distributed, scalable, fault-tolerant, and high-performance infrastructure.
     </p>
     <p class="text-sm sm:text-base mb-2">
         Developed by me (tech lead, lead engineer) and
@@ -41,17 +41,17 @@
             SvelteKit frontend with beautiful and responsive shadcn-ui components.
         </li>
         <li>
-            Implemented pagination to reduce payload response sizes by 75%, cutting outgoing data transfer costs by 30%.
+            Implemented pagination to for sub-100ms page loads and 50% reduced data transfer costs.
         </li>
         <li>
-            Distributed search and indexing pipeline with Go and RabbitMQ on Google Compute Engine, scaling to 3000
-            concurrent Algolia index operations with sub-100ms search latency using goroutine worker pools.
+            Search and indexing pipeline with Go and RabbitMQ on Google Compute Engine, scaling to 10,000
+            concurrent Algolia index operations using goroutine worker pools.
         </li>
         <li>
-            Manages 350 users with Google Cloud SQL.
+            Scrapes tech internship listings with Python for 99% data freshness on Algolia.
         </li>
         <li>
-            Scrapes tech internship listings with Python.
+            Guaranteed eventual consistency and disaster recovery across distributed data stores with event sourcing.
         </li>
     </ul>
 </main>
