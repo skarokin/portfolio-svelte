@@ -25,10 +25,10 @@
 
     <ul class="pl-2 font-semibold text-md sm:text-xl">
         <li>
-            <a href="/contacts">contacts</a>
+            <a href="/projects">projects</a>
         </li>
         <li>
-            <a href="/projects">projects</a>
+            <a href="/contacts">contacts</a>
         </li>
         <li>
             <a href="/about">about</a>

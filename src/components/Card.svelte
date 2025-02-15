@@ -5,17 +5,25 @@
     export let websiteName = "";
     export let websiteLink = "";
     export let description = "";
+    export let date = "";
 
     const projectURL = `/projects/${title.replace(":", "")}`
 </script>
 
 <div class="my-4 rounded-md p-4 bg-[var(--card-bg)]">
-    <h3 class="text-sm sm:text-base">
-        <a href={projectURL}>{title}</a> |
-        <a href={githubLink} target="_blank">GitHub</a>
-        {#if websiteLink}
-            | <a href={websiteLink} target="_blank">{websiteName}</a>
-        {/if}
+    <h3 class="flex flex-row justify-between items-center text-sm sm:text-base">
+        <div>
+            <a href={projectURL}>{title}</a> |
+            <a href={githubLink} target="_blank">GitHub</a>
+            {#if websiteLink}
+                | <a href={websiteLink} target="_blank">{websiteName}</a>
+            {/if}
+        </div>
+        <p class="text-xs sm:text-sm">
+            {#if date}
+                {date}
+            {/if}
+        </p>
     </h3>
     <hr class="border-[var(--card-hr)] w-full mb-2" />
     <p class="text-sm sm:text-base">{description}</p>
